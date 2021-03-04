@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&family=Montserrat&family=Nunito+Sans:ital,wght@1,300&display=swap");
+.App {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 2rem -1rem black;
+          box-shadow: 0 0 2rem -1rem black;
+  margin-bottom: 3rem;
+}
+
+.App header {
+  font-family: 'Basic', sans-serif;
+  background-color:rgb(29, 137, 141);
+  padding: 3rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.App .parent {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.App .parent .left-side {
+  border-bottom-left-radius: 1rem;
+  padding: 0rem 2rem;
+  background-color: #f1f1f1;
+  padding-bottom: 2rem;
+  color:#000033;
+}
+
+.App .parent .left-side img {
+  border-radius: 50%;
+  width: 60%;
+  position: relative;
+  -webkit-transform: translate(30%, -50%);
+          transform: translate(30%, -50%);
+  -webkit-box-shadow: 0 0 2rem -1rem #f5f2f2;
+          box-shadow: 0 0 2rem -1rem #f5f2f2;
+}
+
+.App .parent .left-side > div h4 {
+  border-bottom: 2px dotted rgba(0, 0, 0, 0.568);
+  text-align: center;
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
+
+.App .parent .left-side > div > p,
+.App .parent .left-side > div > div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem 5px;
+  background-color:#faf8f8 ;
+  border-radius: 10px;
+  overflow: hidden;
+  color:#000033
+}
+
+.App .parent .left-side > div > p > p:last-child,
+.App .parent .left-side > div > div > p:last-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .parent .left-side > div > p > p:last-child > span,
+.App .parent .left-side > div > div > p:last-child > span {
+  margin-right: 3px;
+  height: 0.5rem;
+  border: 1px solid #2f3f4e;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.App .parent .left-side > div > p > p:last-child > span > span,
+.App .parent .left-side > div > div > p:last-child > span > span {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 25%;
+  border-radius: 0.5rem;
+  background-color: #2f3f4e;
+}
+
+.App .parent .left-side > div > div + div {
+  margin-top: 0.5rem;
+}
+
+.App .parent .left-side .contact p {
+  padding: 0.5rem;
+}
+
+.App .parent .right-side {
+  border-bottom-right-radius: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+  background-color:#faf8f8 ;
+
+}
+
+.App .parent .right-side .about p {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: #f1f1f1;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.parent-education {
+  margin: 1rem;
+}
+
+.parent-education > div {
+  border-radius: 0.8rem;
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+.parent-education > div nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.parent-education > div nav h5 {
+  text-transform: capitalize;
+}
+
+.parent-education > div nav h5:last-child {
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.parent-education > div p {
+  color: rgba(0, 0, 0, 0.466);
+}
+
+.parent-education > div {
+  margin-bottom: 1rem;
+}
+
+.parent-project {
+  margin-top: 1rem;
+}
+
+.parent-project ul {
+  list-style-type: none;
+}
+
+.parent-project ul li {
+  font-family: 'Basic', sans-serif;
+  padding: 0.5rem 1rem;
+  background-color: #f1f1f1;
+  font-size: 1.3rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.parent-project ul li:hover {
+  cursor: pointer;
+}
+
+.parent-experience {
+  margin: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.parent-experience h5 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent-experience h5 span:first-child {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.parent-experience h5 span:last-child {
+  font-size: 1.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.parent-experience p {
+  margin: 1rem;
+  font-size: 1.05rem;
+}
+
+.portfolio a {
+  padding: 0.5rem;
+  background-color: #faf8f8;
+  border-radius: 0.5rem;
+  color: black;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+}
+
+.portfolio a:hover {
+  text-decoration: none;
+}
+
+aside {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #2f3f4e;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+aside .icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+aside:hover {
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 0 0.5rem -1px;
+          box-shadow: 0 0 0.5rem -1px;
+  cursor: pointer;
+}
+
+aside:hover .icon {
+  color: #2f3f4e;
+}
+
+aside:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.skill-parent h5 {
+  font-weight: 700;
+}
+
+.skill-parent ul {
+  list-style-type:none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-parent ul li {
+  margin: 0.1rem;
+}
+/*# sourceMappingURL=App.css.map */
