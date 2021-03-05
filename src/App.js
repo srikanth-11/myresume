@@ -188,9 +188,7 @@ function App() {
 								<li className="col-12" style={{ fontSize: '1rem' }}>
 									<GiCricketBat />cricket
 								</li>
-								<li className="col-12" style={{ fontSize: '1rem' }}>
-									<GiShuttlecock />Badminton
-								</li>
+								
 								<li className="col-12" style={{ fontSize: '1rem' }}>
 									<FaLaptopCode />coding
 								</li>

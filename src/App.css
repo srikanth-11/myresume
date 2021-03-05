@@ -33,8 +33,8 @@
   border-radius: 50%;
   width: 60%;
   position: relative;
-  -webkit-transform: translate(30%, -50%);
-          transform: translate(30%, -50%);
+  -webkit-transform: translate(20%, -50%);
+          transform: translate(20%, -50%);
   -webkit-box-shadow: 0 0 2rem -1rem #f5f2f2;
           box-shadow: 0 0 2rem -1rem #f5f2f2;
 }
