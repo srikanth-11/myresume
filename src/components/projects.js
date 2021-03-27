@@ -6,9 +6,9 @@ function Project() {
 			<ul className="row">
 				
 				<li className=" col-sm-12 col-lg-5  ">
-					Url Shortener{' '}
+					Questionsoverflow{' '}
 					<a
-						href="https://sri-url-shortner-12.netlify.app/"
+						href="https://sri-questionsoverflow.netlify.app"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -20,9 +20,9 @@ function Project() {
 			
 				
 				<li className=" col-sm-12 col-lg-5  ">
-					Newyork Times{' '}
+					Uploader{' '}
 					<a
-						href="https://srikanth-newyorktimes-news.netlify.app/"
+						href="https://sri-uploader.netlify.app"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -30,8 +30,14 @@ function Project() {
 					</a>{' '}
 				</li>
 				<li className=" col-sm-12 col-lg-5  ">
-					Web Cricket{' '}
-					<a href="https://srikanth-simple-cricket-game.netlify.app/" target="_blank" rel="noopener noreferrer">
+					socialize{' '}
+					<a href="https://sri-socialize.netlify.app" target="_blank" rel="noopener noreferrer">
+						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
+					</a>{' '}
+				</li>
+				<li className=" col-sm-12 col-lg-5  ">
+					Tasksubmission{' '}
+					<a href="https://sri-tasksubmission.netlify.app" target="_blank" rel="noopener noreferrer">
 						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
 					</a>{' '}
 				</li>

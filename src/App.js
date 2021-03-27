@@ -48,7 +48,7 @@ function App() {
 						<div className="col-12 row portfolio">
 							<h4 className="col-12">Portfolio</h4>
 							<a
-								href=""
+								href="https://srikanth-11.github.io/portfolio/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="col-12"
@@ -106,9 +106,7 @@ function App() {
 							</span>
 							<p className="container-fluid">
 								Fervent web developer with great enthusiasm to enrich web. I prefer to keep learning,
-								continue challenging myself, and do interesting things that matter. My abundant energy
-								fuels me in the pursuit of many interests, hobbies, areas of study and artistic
-								endeavors. I’m a fast learner, able to pick up new skills and juggle different projects
+								continue challenging myself, and do interesting things that matter. I’m a fast learner, able to pick up new skills and juggle different projects
 								and roles with relative ease
 							</p>
 						</div>
