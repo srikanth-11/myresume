@@ -54,7 +54,7 @@ function App() {
 								className="col-12"
 								style={{ cursor: 'pointer' }}
 							>
-								
+								srikanth-11.github.io/portfolio/
 							</a>
 						</div>
 						<div className="col-12 row skill">
